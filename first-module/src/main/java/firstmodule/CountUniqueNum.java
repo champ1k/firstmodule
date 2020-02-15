@@ -14,14 +14,14 @@ public class CountUniqueNum {
         {
             return numbers.length;
         }
-        int countuniquenum = 0;
+        int countuniquen = 0;
         Set<Integer> intSet = new HashSet<Integer>();
         for(int i = 0,length = numbers.length;i<length;i++){
             if(intSet.add(numbers[i]))
             {
-            countuniquenum++;
+            countuniquen++;
             }
         }
-        return countuniquenum;
+        return countuniquen;
     }
 }
